@@ -22,7 +22,7 @@ cd ahlev-django-team
 
 ### create installer package
 ```
-python3 setup.py sdist
+make package
 ```
 
 ### install package
