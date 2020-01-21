@@ -61,14 +61,14 @@ MEDIA_URL = '/medias/'
 ```
 
 ## screenshots
-### frontend: about us page with team member info
+### public: about us page with team member info
 ![](screenshot/team_frontend.png)
 
-### backend: teammate management
+### admin: teammate management
 ![](screenshot/team_backend1.png)
 
-### backend: list all members in team
+### admin: list all members in team
 ![](screenshot/team_backend2.png)
 
-### backend: edit a member in team
+### admin: edit a member in team
 ![](screenshot/team_backend3.png)
