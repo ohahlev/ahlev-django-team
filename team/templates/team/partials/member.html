@@ -1,0 +1,40 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'team/css/team.css' %}">
+<div class="col-md-4 mb-4">
+    <div class="avatar mx-auto">
+          <img src="{{ member.photo.url }}" class="rounded z-depth-1-half">
+    </div>
+    <h4 class="font-weight-bold dark-grey-text my-4">{{ member.name }}</h4>
+    <h6 class="text-uppercase grey-text mb-3"><strong>{{ member.position }}</strong></h6>
+    
+    {% if member.dribbble %}
+    <a type="button" href="{{ member.dribbble }}" class="btn-floating btn-sm mx-1 mb-0 btn-dribbble">
+        <i class="fab fa-dribbble"></i>
+    </a>
+    {% endif %}
+
+    {% if member.facebook %}
+    <a type="button" href="{{ member.facebook }}" class="btn-floating btn-sm mx-1 mb-0 btn-fb">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    {% endif %}
+
+    {% if member.github %}
+    <a type="button" href="{{ member.github }}" class="btn-floating btn-sm mx-1 mb-0 btn-git">
+        <i class="fab fa-github"></i>
+    </a>
+    {% endif %}
+    
+    {% if member.linkedin %}
+    <a type="button" href="{{ member.linkedin }}" class="btn-floating btn-sm mx-1 mb-0 btn-li">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    {% endif %}
+
+    {% if member.twitter %}
+    <a type="button" href="{{ member.twitter }}" class="btn-floating btn-sm mx-1 mb-0 btn-tw">
+        <i class="fab fa-twitter"></i>
+    </a>
+    {% endif %}
+
+</div>
