@@ -44,8 +44,8 @@ pip install ../ahlev-django-team/dist/ahlev-django-team-0.0.1.tar.gz
 ### update settings.py as the following
 ```
 INSTALLED_APPS = [
-    'team', # add this line
-    'about_us' # make sure this line stays underneath
+    'about_us'
+    'team', # add this line, make sure it stays under about_us
     ...
 ]
 ```
