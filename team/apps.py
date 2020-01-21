@@ -3,4 +3,4 @@ from . import __version__ as VERSION
 
 class TeamConfig(AppConfig):
     name = "team"
-    verbose_name = "Teamate Management %s" % VERSION
+    verbose_name = "Teammate Management %s" % VERSION
